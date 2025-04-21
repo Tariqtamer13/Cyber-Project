@@ -5,7 +5,7 @@ from feature import FeatureExtraction
 
 
 def load_model():
-    with open("models/Phishing URL Detection model.pkl", "rb") as file:
+    with open("Phishing URL Detection model.pkl", "rb") as file:
         return pickle.load(file)
 
 
